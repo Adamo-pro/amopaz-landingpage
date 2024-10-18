@@ -169,19 +169,33 @@
       </selection>
       <selection class="eventos default" id="eventos">
         <div class="content">
-          <h2>Próximo Evento:</h2>
-          <div class="eventos">
-            <div class="left"></div>
-            <div class="right">
-              <h2>Retiro de Homens 2024</h2>
-              <p>
-                Acontecerá nos dias 15 e 16 de novembro do presente ano o
-                Congresso de Homens Batistas Regulares, com o tema "Pastores da
-                Família - Cuidando da vida espiritual do meu lar". Teremos como
-                pregador o Pr. Carlos Jr. da Igreja Batista do Alto.
-              </p>
+          <h2>Próximos Eventos</h2>
+          <div class="center">
+            <div id="slider">
+              <div id="slides">
+                <div class="slide">
+                  <img src="images/Retiro homens 24.jpeg" />
+                  <div class="description">
+                    <h2>Retiro de homens 2024</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="images/Retiro homens antigo.jpeg" />
+                  <div class="description">
+                    <h2>Retiro de homens 2020</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="images/intercâmbio de jovens.jpeg" />
+                  <div class="description">
+                    <h2>Intercâmbio de Jovens 2024</h2>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <button class="btn-slide" id="anterior">Anterior</button>
+          <button class="btn-slide" id="proximo">Próximo</button>
         </div>
       </selection>
       <selection class="contato default" id="contato">
@@ -282,5 +296,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

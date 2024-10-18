@@ -203,33 +203,43 @@ h2 {
 
 /*Eventos*/
 
-.eventos {
-  width: 100%;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid #80808077;
+.center {
   display: flex;
-  justify-items: center;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
 
-.eventos > .left {
-  width: 50%;
-  height: 600px;
-  background-image: url("images/Retiro\ homens\ 24.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
+#slider {
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.eventos > .right {
-  width: 50%;
-  text-align: justify;
-  justify-items: center;
-  align-content: center;
-  padding: 0 20px;
+#slides {
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
-.eventos > .right h2 {
-  text-align: left;
+.slide {
+  min-width: 500px;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 70%;
+}
+
+.btn-slide {
+  width: 10%;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+  background-color: #00000075;
+  color: #fff;
 }
 
 /*Contato*/
